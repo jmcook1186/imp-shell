@@ -46,4 +46,5 @@ function shellCommand(impl, execPath, omplName) {
 }
 
 //example invocation
-shellCommand('dow_msft.yaml', '/home/joe/Code/ief-sandbox/dist/cli/cli', 'ompl.yaml')
+// calling prototype python model available in ief-sandbox repo
+shellCommand('dow_msft.yaml', '~/ief-sandbox/dist/cli/cli', 'ompl.yaml')
